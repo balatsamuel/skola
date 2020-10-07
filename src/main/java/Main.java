@@ -1,10 +1,9 @@
-package JavaName;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class GIT {
+public class Main {
 
     public static void main(String[] args) {
         // write your code here
@@ -15,10 +14,10 @@ public class GIT {
         Scanner scanner = new Scanner(System.in);
 
         String out = scanner.nextLine();
-        int pocet = pocetZnakov("out");
+        int pocet = pocetZnakov(out);
         //vytvorte metodu ktora počita počet znakov v zadanom texte
         System.out.println("vystupny text:"+out);
-        System.out.println("pocet znakov je: "+ 5);
+        System.out.println("pocet znakov je: "+ pocet);
         InputStream inputStream; //binarny subor
         InputStreamReader reader; // znakovy subor nejaky text
 
@@ -26,8 +25,8 @@ public class GIT {
     }
     //komentar na GIT
     //vstupna metoda bude String a vystup bude int
-    private static int pocetZnakov(String out) {
-        int langht: wordcount /;
-        return count;
+    private static int pocetZnakov(String vstup) {
+        return vstup.length();
+
     }
 }

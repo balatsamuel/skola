@@ -1,0 +1,4 @@
+aký je rozdiel je medzi :
+string out = scanner.nextLine()
+
+String out = scanner.next()
